@@ -1,0 +1,19 @@
+{
+   "name": "Kassadin",
+   "total_shares": 10000000,
+   "stock_price": 29,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.49,
+         "11.11": 50.05,
+         "11.12": 50.33,
+         "11.13": 50.91,
+         "11.14": 51.07
+      },
+      "last_patched": "11.14",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 0
+}

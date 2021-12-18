@@ -1,0 +1,18 @@
+{
+   "name": "Alistar",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 2,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.18,
+         "11.11": 50.11,
+         "11.12": 49.79,
+         "11.13": 49.75,
+         "11.14": 49.79
+      },
+      "last_patched": "11.11"
+   },
+   "patches_since_patched": 3
+}

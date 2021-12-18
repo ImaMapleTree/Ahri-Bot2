@@ -1,0 +1,13 @@
+[[init]]
+author=Most Played: {{player.most_played.name}} ({{player.most_played.games}} Games)
+title={{player.name}} ({{player.region_short}})
+description=<<player.ranked.tier>> **{{player.ranked.tier}} {{player.ranked.rank}} | Winrate: {{player.ranked.winrate}}%** ({{player.ranked.wins}}W / {{player.ranked.losses}}L)
+author_icon={{player.most_played.image_url}}
+color=0xfc8403
+thumbnail={{player.icon_url}}
+[[init]]
+
+[[field]]
+name = Recent Matches [1-5]
+line = <<partial_games[0].result.color_emoji>> **{{partial_games[0].result}}** ({{matches[0].time.digital_duration}}) <<partial_games[0].lane>> <<partial_games[0].champion>> **{{partial_games[0].kda_slashes}}** ({{partial_games[0].kda}}) **{{prebuilt.dot}} {{matches[0].match_type.tiny}}** | {{matches[0].time.short_elapsed}}
+[[field]]

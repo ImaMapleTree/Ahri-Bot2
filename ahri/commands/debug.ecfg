@@ -1,0 +1,8 @@
+name: debug
+description: A debug command :D
+[options]
+	{hidden}
+		name: hidden
+		description: if the response should be hidden
+		option_type: 5
+		required: false

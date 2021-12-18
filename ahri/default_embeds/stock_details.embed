@@ -1,0 +1,17 @@
+534b49505f54455354
+[[init]]
+title=Stock ({{stock}})
+description=**{{cost}}** charms/stock
+author=Last Changed: {{last_change}} | Patches Since Change: {{patches_since_change}}
+color=0xfc8403
+thumbnail=https://cdn.discordapp.com/attachments/205062074307575819/668872521520513060/AhriBot2.png
+[[init]]
+
+[[inline-field]]
+name=Price History
+line=**[5 Days]** {{price_timeline[0]}}
+line=**[4 Days]** {{price_timeline[0]}}
+line=**[3 Days]** {{price_timeline[0]}}
+line=**[2 Days]** {{price_timeline[0]}}
+line=**[1 Day]** {{price_timeline[0]}}
+[[inline-field]]

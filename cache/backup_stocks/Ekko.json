@@ -1,0 +1,19 @@
+{
+   "name": "Ekko",
+   "total_shares": 10000000,
+   "stock_price": 8,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.68,
+         "11.11": 49.54,
+         "11.12": 49.47,
+         "11.13": 48.7,
+         "11.14": 49.04
+      },
+      "last_patched": "10.25",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 14
+}

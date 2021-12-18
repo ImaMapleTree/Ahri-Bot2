@@ -1,0 +1,18 @@
+{
+   "name": "Xerath",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.44,
+         "11.11": 49.9,
+         "11.12": 49.64,
+         "11.13": 49.86,
+         "11.14": 50.05
+      },
+      "last_patched": "11.9"
+   },
+   "patches_since_patched": 5
+}

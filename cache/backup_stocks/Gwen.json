@@ -1,0 +1,19 @@
+{
+   "name": "Gwen",
+   "total_shares": 10000000,
+   "stock_price": 30,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.83,
+         "11.11": 50.34,
+         "11.12": 48.58,
+         "11.13": 48.31,
+         "11.14": 48.45
+      },
+      "last_patched": "11.11",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 3
+}

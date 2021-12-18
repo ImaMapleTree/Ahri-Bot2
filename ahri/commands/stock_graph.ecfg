@@ -1,0 +1,23 @@
+name: graph
+description: Creates a graph based off a stock's data
+[options]
+	{option1}
+		name: stock
+		description: Name of the stock ex: Ryze, Akali, ect
+		option_type: 3
+		required: True
+	{option2}
+		name: type
+		description: Data to be graphed
+		option_type: 3
+		required: True
+		[choices]
+			{Daily}
+				name: Daily Price
+				value: daily_timeline
+			{Weekly}
+				name: Weekly Price
+				value: price_timeline
+			{Winrate}
+				name: Patch Winrate
+				value: patch_winrate

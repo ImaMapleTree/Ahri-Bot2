@@ -1,0 +1,19 @@
+{
+   "name": "Ashe",
+   "total_shares": 10000000,
+   "stock_price": 24,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.15,
+         "11.11": 51.78,
+         "11.12": 50.86,
+         "11.13": 51.51,
+         "11.14": 52.3
+      },
+      "last_patched": "11.7",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 7
+}

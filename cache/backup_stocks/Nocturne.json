@@ -1,0 +1,19 @@
+{
+   "name": "Nocturne",
+   "total_shares": 10000000,
+   "stock_price": 50,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.69,
+         "11.11": 49.76,
+         "11.12": 48.91,
+         "11.13": 53.61,
+         "11.14": 50.41
+      },
+      "last_patched": "11.14",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 0
+}

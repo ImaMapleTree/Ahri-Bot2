@@ -1,0 +1,19 @@
+{
+   "name": "Quinn",
+   "total_shares": 10000000,
+   "stock_price": 16,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.54,
+         "11.11": 51.09,
+         "11.12": 49.92,
+         "11.13": 50.5,
+         "11.14": 51.92
+      },
+      "last_patched": "11.5",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 9
+}

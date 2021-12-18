@@ -1,0 +1,13 @@
+name: register
+description: Registers embed
+[options]
+	{name}
+		name: name
+		description: Name of the embed
+		option_type: 3
+		required: True
+	{messages}
+		name: messages
+		description: Amount of messages that make-up your embed. Ex: 2 (last 2 messages)
+		option_type: 4
+		required: True

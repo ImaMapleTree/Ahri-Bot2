@@ -1,0 +1,18 @@
+{
+   "name": "Qiyana",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.76,
+         "11.11": 50.11,
+         "11.12": 50.26,
+         "11.13": 49.44,
+         "11.14": 50.07
+      },
+      "last_patched": "11.11"
+   },
+   "patches_since_patched": 3
+}

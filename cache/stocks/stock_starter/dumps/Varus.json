@@ -1,0 +1,18 @@
+{
+   "name": "Varus",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.99,
+         "11.11": 48.63,
+         "11.12": 48.39,
+         "11.13": 49.5,
+         "11.14": 48.84
+      },
+      "last_patched": "11.12"
+   },
+   "patches_since_patched": 2
+}

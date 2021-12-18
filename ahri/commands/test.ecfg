@@ -1,0 +1,15 @@
+name: test
+description: This is just a test command, nothing more.
+[options]
+	{option1}
+		name: optone
+		description: This is the first option we have.
+		option_type: 3
+		required: True
+		[choices]
+			{choice1}
+				name: ChoiceOne
+				value: DOGE!
+			{choice2}
+				name: ChoiceTwo
+				value: NO DOGE!

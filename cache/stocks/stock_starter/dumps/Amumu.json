@@ -1,0 +1,18 @@
+{
+   "name": "Amumu",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 48.14,
+         "11.11": 47.83,
+         "11.12": 46.29,
+         "11.13": 46.11,
+         "11.14": 46.15
+      },
+      "last_patched": "11.7"
+   },
+   "patches_since_patched": 7
+}

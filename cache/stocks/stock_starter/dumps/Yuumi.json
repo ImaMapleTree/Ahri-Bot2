@@ -1,0 +1,18 @@
+{
+   "name": "Yuumi",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 47.33,
+         "11.11": 48.41,
+         "11.12": 49.08,
+         "11.13": 48.01,
+         "11.14": 48.37
+      },
+      "last_patched": "11.10"
+   },
+   "patches_since_patched": 4
+}

@@ -1,0 +1,19 @@
+{
+   "name": "Malphite",
+   "total_shares": 10000000,
+   "stock_price": 8,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.92,
+         "11.11": 49.93,
+         "11.12": 50.42,
+         "11.13": 48.87,
+         "11.14": 49.36
+      },
+      "last_patched": "11.12",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 2
+}

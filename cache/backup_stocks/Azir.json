@@ -1,0 +1,19 @@
+{
+   "name": "Azir",
+   "total_shares": 10000000,
+   "stock_price": 11.9,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 48.45,
+         "11.11": 48.42,
+         "11.12": 47.99,
+         "11.13": 48.31,
+         "11.14": 48.09
+      },
+      "last_patched": "11.11",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 3
+}

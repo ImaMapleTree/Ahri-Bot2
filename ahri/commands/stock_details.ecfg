@@ -1,0 +1,8 @@
+name: details
+description: Get details on requested stock
+[options]
+	{option1}
+		name: stock
+		description: Name of the stock ex: Ryze, Akali, ect
+		option_type: 3
+		required: True

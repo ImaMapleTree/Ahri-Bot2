@@ -1,0 +1,19 @@
+{
+   "name": "Rek'Sai",
+   "total_shares": 10000000,
+   "stock_price": 23,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.4,
+         "11.11": 50.95,
+         "11.12": 50.43,
+         "11.13": 50.03,
+         "11.14": 52.3
+      },
+      "last_patched": "11.14",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 0
+}

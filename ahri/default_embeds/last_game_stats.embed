@@ -1,0 +1,76 @@
+[[variables]]
+match=matches[0]
+blue=match.teams[0]
+red=match.teams[1]
+bp1 = blue.players[0]
+bp2 = blue.players[1]
+bp3 = blue.players[2]
+bp4 = blue.players[3]
+bp5 = blue.players[4]
+
+rp1 = red.players[0]
+rp2 = red.players[1]
+rp3 = red.players[2]
+rp4 = red.players[3]
+rp5 = red.players[4]
+
+[[variables]]
+
+[[init]]
+title={{match.match_type}} {{prebuilt.dot}} {{match.match_type.description}} {{prebuilt.dot}} {{match.time.analog_duration}} {{prebuilt.dot}} {{match.time.date}}
+description=**{{blue.pretty_gold}} <<gold2>> | {{blue.tower_kills}}<<towerblue>>{{blue.baron_kills}}<<baronblue>>{{blue.dragon_kills}}<<dragonblue>> {{prebuilt.arrows}} {{prettify(red.gold)}} <<gold2>> | {{red.tower_kills}}<<towerred>>{{red.baron_kills}}<<baronred>>{{red.dragon_kills}}<<dragonred>>**
+[[init]]
+
+[[inline-field]]
+name=Blue Team ({{blue.outcome}})
+line=**<<bp1.champion.name>><<bp1.runes[0]>> {{bp1.name}}**
+line=**<<bp2.champion.name>><<bp2.runes[0]>> {{bp2.name}}**
+line=**<<bp3.champion.name>><<bp3.runes[0]>> {{bp3.name}}**
+line=**<<bp4.champion.name>><<bp4.runes[0]>> {{bp4.name}}**
+line=**<<bp5.champion.name>><<bp5.runes[0]>> {{bp5.name}}**
+[[inline-field]]
+
+[[inline-field]]
+name=Statistics
+line=:white_small_square: **Damage:** {{bp1.champion_damages["pretty_total"]}} **Gold:** {{bp1.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{bp2.champion_damages["pretty_total"]}} **Gold:** {{bp2.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{bp3.champion_damages["pretty_total"]}} **Gold:** {{bp3.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{bp4.champion_damages["pretty_total"]}} **Gold:** {{bp4.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{bp5.champion_damages["pretty_total"]}} **Gold:** {{bp5.pretty_gold_earned}}
+[[inline-field]]
+
+[[inline-field]]
+name=Creep Score
+line=<<minionblue>> **{{bp1.creep_score}}**
+line=<<minionblue>> **{{bp2.creep_score}}**
+line=<<minionblue>> **{{bp3.creep_score}}**
+line=<<minionblue>> **{{bp4.creep_score}}**
+line=<<minionblue>> **{{bp5.creep_score}}**
+[[inline-field]]
+
+[[inline-field]]
+name=Red Team ({{red.outcome}})
+line=**<<rp1.champion.name>><<rp1.runes[0]>> {{rp1.name}}**
+line=**<<rp2.champion.name>><<rp2.runes[0]>> {{rp2.name}}**
+line=**<<rp3.champion.name>><<rp3.runes[0]>> {{rp3.name}}**
+line=**<<rp4.champion.name>><<rp4.runes[0]>> {{rp4.name}}**
+line=**<<rp5.champion.name>><<rp5.runes[0]>> {{rp5.name}}**
+[[inline-field]]
+
+[[inline-field]]
+name=Statistics
+line=:white_small_square: **Damage:** {{rp1.champion_damages["pretty_total"]}} **Gold:** {{rp1.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{rp2.champion_damages["pretty_total"]}} **Gold:** {{rp2.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{rp3.champion_damages["pretty_total"]}} **Gold:** {{rp3.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{rp4.champion_damages["pretty_total"]}} **Gold:** {{rp4.pretty_gold_earned}}
+line=:white_small_square: **Damage:** {{rp5.champion_damages["pretty_total"]}} **Gold:** {{rp5.pretty_gold_earned}}
+[[inline-field]]
+
+[[inline-field]]
+name=Creep Score
+line=<<minionred>> **{{rp1.creep_score}}**
+line=<<minionred>> **{{rp2.creep_score}}**
+line=<<minionred>> **{{rp3.creep_score}}**
+line=<<minionred>> **{{rp4.creep_score}}**
+line=<<minionred>> **{{rp5.creep_score}}**
+

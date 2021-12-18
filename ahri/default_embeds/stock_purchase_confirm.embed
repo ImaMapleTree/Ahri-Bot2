@@ -1,0 +1,34 @@
+534b49505f54455354
+[[init]]
+title=Stock Purchase
+description=**Purchase Details**
+color=0xfc8403
+thumbnail=https://cdn.discordapp.com/attachments/205062074307575819/668872521520513060/AhriBot2.png
+[[init]]
+
+[[inline-field]]
+name=Stock Name
+line=**{{stock}}**
+[[inline-field]]]
+
+[[inline-field]]
+name=Amount
+line=**{{amount}}**
+[[inline-field]]]
+
+[[inline-field]]
+name=Total Cost
+line=**{{cost}} charms** ({{cost_per_stock}} c/s)
+[[inline-field]]]
+
+[[interface]]
+[row1]
+	{Button1}
+		type: 1
+		emoji: ✅
+		style: green
+	{Button2}
+		type: 1
+		emoji: ✖️
+		style: red
+[[interface]]

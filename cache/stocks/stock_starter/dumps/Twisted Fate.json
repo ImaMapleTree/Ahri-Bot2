@@ -1,0 +1,18 @@
+{
+   "name": "Twisted Fate",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.23,
+         "11.11": 50.01,
+         "11.12": 49.64,
+         "11.13": 49.91,
+         "11.14": 49.56
+      },
+      "last_patched": "10.23"
+   },
+   "patches_since_patched": -9
+}

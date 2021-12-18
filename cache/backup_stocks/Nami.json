@@ -1,0 +1,19 @@
+{
+   "name": "Nami",
+   "total_shares": 10000000,
+   "stock_price": 9,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.14,
+         "11.11": 48.79,
+         "11.12": 47.67,
+         "11.13": 49.8,
+         "11.14": 49.7
+      },
+      "last_patched": "11.1",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 13
+}

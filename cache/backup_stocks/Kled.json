@@ -1,0 +1,19 @@
+{
+   "name": "Kled",
+   "total_shares": 10000000,
+   "stock_price": 37,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.84,
+         "11.11": 51.52,
+         "11.12": 52.23,
+         "11.13": 51.65,
+         "11.14": 50.7
+      },
+      "last_patched": "10.23",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 16
+}

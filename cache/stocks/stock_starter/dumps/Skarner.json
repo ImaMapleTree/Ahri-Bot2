@@ -1,0 +1,12 @@
+{
+   "name": "Skarner",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {},
+      "last_patched": "11.12"
+   },
+   "patches_since_patched": 2
+}

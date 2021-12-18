@@ -1,0 +1,18 @@
+{
+   "name": "Irelia",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 45.86,
+         "11.11": 46.43,
+         "11.12": 46.77,
+         "11.13": 46.38,
+         "11.14": 50.23
+      },
+      "last_patched": "11.14"
+   },
+   "patches_since_patched": 0
+}

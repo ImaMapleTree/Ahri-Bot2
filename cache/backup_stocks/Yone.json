@@ -1,0 +1,19 @@
+{
+   "name": "Yone",
+   "total_shares": 10000000,
+   "stock_price": 25,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 48.5,
+         "11.11": 47.97,
+         "11.12": 48.53,
+         "11.13": 48.69,
+         "11.14": 48.42
+      },
+      "last_patched": "11.10",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 4
+}

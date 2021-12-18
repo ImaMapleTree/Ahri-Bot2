@@ -1,0 +1,64 @@
+[[variables]]
+match=matches[0]
+blue=matches[0].teams[0]
+red=matches[0].teams[1]
+[[variables]]
+
+[[init]]
+title={{match.match_type}} {{prebuilt.dot}} {{match.match_type.description}} {{prebuilt.dot}} {{match.time.analog_duration}} {{prebuilt.dot}} {{match.time.date}}
+description=**{{blue.gold}} <<gold2>> | {{blue.tower_kills}}<<towerblue>>{{blue.baron_kills}}<<baronblue>>{{blue.dragon_kills}}<<dragonblue>> {{prebuilt.arrows}} {{red.gold}} <<gold2>> | {{red.tower_kills}}<<towerred>>{{red.baron_kills}}<<baronred>>{{red.dragon_kills}}<<dragonred>>**
+[[init]]
+
+[[inline-field]]
+name=Blue Team ({{blue.outcome}})
+line=**<<blue.players[0].champion.name>> <<blue.players[0].runes[0]>> {{blue.players[0].name}}**
+line=**<<blue.players[1].champion.name>><<blue.players[1].runes[0]>> {{blue.players[1].name}}**
+line=**<<blue.players[2].champion.name>><<blue.players[2].runes[0]>> {{blue.players[2].name}}**
+line=**<<blue.players[3].champion.name>><<blue.players[3].runes[0]>> {{blue.players[3].name}}**
+line=**<<blue.players[4].champion.name>><<blue.players[4].runes[0]>> {{blue.players[4].name}}**
+[[inline-field]]
+
+[[inline-field]]
+name=KDA
+line=**<<blue.players[0].lane>> {{blue.players[0].kda_slashes}}**
+line=**<<blue.players[1].lane>> {{blue.players[1].kda_slashes}}**
+line=**<<blue.players[2].lane>> {{blue.players[2].kda_slashes}}**
+line=**<<blue.players[3].lane>> {{blue.players[3].kda_slashes}}**
+line=**<<blue.players[4].lane>> {{blue.players[4].kda_slashes}}**
+[[inline-field]]
+
+[[inline-field]]
+name=Build
+line=<<blue.players[0].items[0]>><<blue.players[0].items[1]>><<blue.players[0].items[2]>><<blue.players[0].items[3]>><<blue.players[0].items[4]>><<blue.players[0].items[5]>>
+line=<<blue.players[1].items[0]>><<blue.players[1].items[1]>><<blue.players[1].items[2]>><<blue.players[1].items[3]>><<blue.players[1].items[4]>><<blue.players[1].items[5]>>
+line=<<blue.players[2].items[0]>><<blue.players[2].items[1]>><<blue.players[2].items[2]>><<blue.players[2].items[3]>><<blue.players[2].items[4]>><<blue.players[2].items[5]>>
+line=<<blue.players[3].items[0]>><<blue.players[3].items[1]>><<blue.players[3].items[2]>><<blue.players[3].items[3]>><<blue.players[3].items[4]>><<blue.players[3].items[5]>>
+line=<<blue.players[4].items[0]>><<blue.players[4].items[1]>><<blue.players[4].items[2]>><<blue.players[4].items[3]>><<blue.players[4].items[4]>><<blue.players[4].items[5]>>
+[[inline-field]]
+
+[[inline-field]]
+name=Red Team ({{red.outcome}})
+line=**<<red.players[0].champion.name>><<red.players[0].runes[0]>> {{red.players[0].name}}**
+line=**<<red.players[1].champion.name>><<red.players[1].runes[0]>> {{red.players[1].name}}**
+line=**<<red.players[2].champion.name>><<red.players[2].runes[0]>> {{red.players[2].name}}**
+line=**<<red.players[3].champion.name>><<red.players[3].runes[0]>> {{red.players[3].name}}**
+line=**<<red.players[4].champion.name>><<red.players[4].runes[0]>> {{red.players[4].name}}**
+[[inline-field]]
+
+[[inline-field]]
+name=KDA
+line=**<<red.players[0].lane>> <<red.players[0].kda_slashes>>**
+line=**<<red.players[1].lane>> <<red.players[1].kda_slashes>>**
+line=**<<red.players[2].lane>> <<red.players[2].kda_slashes>>**
+line=**<<red.players[3].lane>> <<red.players[3].kda_slashes>>**
+line=**<<red.players[4].lane>> <<red.players[4].kda_slashes>>**
+[[inline-field]]
+
+[[inline-field]]
+name=Build
+line=<<red.players[0].items[0]>><<red.players[0].items[1]>><<red.players[0].items[2]>><<red.players[0].items[3]>><<red.players[0].items[4]>><<red.players[0].items[5]>>
+line=<<red.players[1].items[0]>><<red.players[1].items[1]>><<red.players[1].items[2]>><<red.players[1].items[3]>><<red.players[1].items[4]>><<red.players[1].items[5]>>
+line=<<red.players[2].items[0]>><<red.players[2].items[1]>><<red.players[2].items[2]>><<red.players[2].items[3]>><<red.players[2].items[4]>><<red.players[2].items[5]>>
+line=<<red.players[3].items[0]>><<red.players[3].items[1]>><<red.players[3].items[2]>><<red.players[3].items[3]>><<red.players[3].items[4]>><<red.players[3].items[5]>>
+line=<<red.players[4].items[0]>><<red.players[4].items[1]>><<red.players[4].items[2]>><<red.players[4].items[3]>><<red.players[4].items[4]>><<red.players[4].items[5]>>
+[[inline-field]]

@@ -1,0 +1,58 @@
+name: lookup
+description: Gathers useful data on a specified player.
+[options]
+	{summoner}
+		name: name
+		description: Summoner Name
+		option_type: 3
+		required: True
+	{region}
+		name: region
+		description: Region (defaults to NA)
+		option_type: 3
+		required: False
+		[choices]
+			{NA}
+				name: North America
+				value: NA1
+			{EUW}
+				name: Europe West
+				value: EUW1
+			{EUN}
+				name: Europe North & East
+				value: EUN1
+			{KR}
+				name: Korea
+				value: KR
+			{BR}
+				name: Brazil
+				value: BR1
+			{JP}
+				name: Japan
+				value: JP1
+			{RU}
+				name: Russia
+				value: RU1
+			{OCE}
+				name: Oceania
+				value: OC1
+			{TR}
+				name: Turkey
+				value: TR1
+			{LAN}
+				name: Latin America North
+				value: LA1
+			{LAS}
+				name: Latin America South
+				value: LA2
+	{champion}
+		name: champion
+		description: Filter by champion: Ahri, Leona
+		option_type: 3
+		required: False
+	{games}
+		name: games
+		description: Max amount of games (default 50)
+		option_type: 4
+		required: False
+		

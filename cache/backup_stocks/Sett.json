@@ -1,0 +1,19 @@
+{
+   "name": "Sett",
+   "total_shares": 10000000,
+   "stock_price": 39,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.8,
+         "11.11": 50.9,
+         "11.12": 50.9,
+         "11.13": 51.05,
+         "11.14": 50.06
+      },
+      "last_patched": "11.9",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 5
+}

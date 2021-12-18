@@ -1,0 +1,18 @@
+{
+   "name": "Hecarim",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 45.01,
+         "11.11": 46.45,
+         "11.12": 48.2,
+         "11.13": 47.63,
+         "11.14": 48.39
+      },
+      "last_patched": "11.12"
+   },
+   "patches_since_patched": 2
+}

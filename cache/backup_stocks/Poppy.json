@@ -1,0 +1,19 @@
+{
+   "name": "Poppy",
+   "total_shares": 10000000,
+   "stock_price": 23,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.03,
+         "11.11": 51.35,
+         "11.12": 52.02,
+         "11.13": 51.4,
+         "11.14": 51.64
+      },
+      "last_patched": "11.12",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 2
+}

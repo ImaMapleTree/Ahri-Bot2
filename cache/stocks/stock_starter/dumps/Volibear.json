@@ -1,0 +1,18 @@
+{
+   "name": "Volibear",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.7,
+         "11.11": 49.29,
+         "11.12": 49.42,
+         "11.13": 49.04,
+         "11.14": 48.71
+      },
+      "last_patched": "11.6"
+   },
+   "patches_since_patched": 8
+}

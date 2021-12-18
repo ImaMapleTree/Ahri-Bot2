@@ -1,0 +1,18 @@
+{
+   "name": "Xin Zhao",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.93,
+         "11.11": 51.75,
+         "11.12": 51.43,
+         "11.13": 51.91,
+         "11.14": 50.71
+      },
+      "last_patched": "11.14"
+   },
+   "patches_since_patched": 0
+}

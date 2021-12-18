@@ -1,0 +1,19 @@
+{
+   "name": "Leona",
+   "total_shares": 10000000,
+   "stock_price": 40,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 52.49,
+         "11.11": 51.42,
+         "11.12": 51.54,
+         "11.13": 51.59,
+         "11.14": 52.03
+      },
+      "last_patched": "11.11",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 3
+}

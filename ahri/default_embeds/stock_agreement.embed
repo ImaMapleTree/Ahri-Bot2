@@ -1,0 +1,29 @@
+534b49505f54455354
+[[init]]
+title=Stock Agreement
+description=""
+color=0xfc8403
+thumbnail=https://cdn.discordapp.com/attachments/205062074307575819/668872521520513060/AhriBot2.png
+[[init]]
+
+[[field]]
+name=Market Disclaimer
+line=**By agreeing to this you acknowledge that the "stock market" portrayed by Ahri bot is in no-way involved with the real stock market, and that the currency (Ahri Charms) is not a cryptocurrency, nor holds any real monetary value. This stock market is solely meant to be a simulation/game and is not associated with Riot Games in anyway.**
+[[field]]
+
+[[field]]
+name=Data Disclaimer
+line=**By agreeing to this you allow Ahri bot to store your user ID to keep track of your stocks, stock history, currency, and any "purchased" item from Ahri.**
+[[field]]
+
+[[interface]]
+[row1]
+	{Button1}
+		type: 1
+		emoji: ✅
+		style: green
+	{Button2}
+		type: 1
+		emoji: ✖️
+		style: red
+[[interface]]

@@ -1,0 +1,13 @@
+{
+   "name": "Skarner",
+   "total_shares": 10000000,
+   "stock_price": 10,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {},
+      "last_patched": "11.12",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 2
+}

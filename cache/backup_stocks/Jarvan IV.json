@@ -1,0 +1,19 @@
+{
+   "name": "Jarvan IV",
+   "total_shares": 10000000,
+   "stock_price": 9.9,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.94,
+         "11.11": 49.46,
+         "11.12": 50.45,
+         "11.13": 49.03,
+         "11.14": 49.79
+      },
+      "last_patched": "11.12",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 2
+}

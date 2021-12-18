@@ -1,0 +1,18 @@
+{
+   "name": "Viktor",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.18,
+         "11.11": 50.22,
+         "11.12": 50.13,
+         "11.13": 50.94,
+         "11.14": 49.76
+      },
+      "last_patched": "11.9"
+   },
+   "patches_since_patched": 5
+}

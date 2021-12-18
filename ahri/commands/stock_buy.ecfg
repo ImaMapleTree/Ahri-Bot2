@@ -1,0 +1,13 @@
+name: buy
+description: Buy stocks off the Ahri stock market
+[options]
+	{option1}
+		name: stock
+		description: Name of the stock ex: Ryze, Akali, ect
+		option_type: 3
+		required: True
+	{option2}
+		name: amount
+		description: Number of stock you want to buy
+		option_type: 4
+		required: True

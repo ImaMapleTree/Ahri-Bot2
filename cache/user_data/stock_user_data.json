@@ -1,0 +1,49 @@
+{
+   "194532858704953344": {
+      "name": "ImaMapleTree",
+      "charms": 4.660167903418675e+20,
+      "stocks": {
+         "Tristana": {
+            "amount": 40,
+            "value": 920,
+            "last_purchased": 1626969917.5810874
+         },
+         "Ivern": {
+            "amount": 270,
+            "value": 9989.9994362976,
+            "last_purchased": 1626970173.28343
+         },
+         "Rumble": {
+            "amount": 250000,
+            "value": 499996.3387572644,
+            "last_purchased": 1626971515.5630717
+         },
+         "Akali": {
+            "amount": 100000,
+            "value": 294888.8146942338,
+            "last_purchased": 1626971711.263173
+         },
+         "Kayle": {
+            "amount": 110000,
+            "value": 27790409.032856077,
+            "last_purchased": 1626971825.372288
+         },
+         "Anivia": {
+            "amount": 200000000000,
+            "value": -9.320335805250623e+20,
+            "last_purchased": 1626972339.2441685
+         },
+         "Gnar": {
+            "amount": 1000,
+            "value": 17000,
+            "last_purchased": 1626972825.8133106
+         },
+         "Fiora": {
+            "amount": 14600,
+            "value": 497850.4078973333,
+            "last_purchased": 1626973025.6630356
+         }
+      },
+      "booster_cooldown": 1627052339.8147206
+   }
+}

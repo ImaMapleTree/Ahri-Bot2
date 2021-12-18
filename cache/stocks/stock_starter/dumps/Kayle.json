@@ -1,0 +1,18 @@
+{
+   "name": "Kayle",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.51,
+         "11.11": 49.94,
+         "11.12": 51.05,
+         "11.13": 50.37,
+         "11.14": 50.74
+      },
+      "last_patched": "11.10"
+   },
+   "patches_since_patched": 4
+}

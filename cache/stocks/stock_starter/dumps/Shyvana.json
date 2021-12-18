@@ -1,0 +1,18 @@
+{
+   "name": "Shyvana",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 47.79,
+         "11.11": 48.58,
+         "11.12": 48.56,
+         "11.13": 46.82,
+         "11.14": 46.06
+      },
+      "last_patched": "11.6"
+   },
+   "patches_since_patched": 8
+}

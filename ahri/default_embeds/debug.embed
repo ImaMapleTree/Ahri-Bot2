@@ -1,0 +1,15 @@
+[[init]]
+title=TEST
+description=TEST
+color=0xfc8403
+[[init]]
+
+[[interface]]
+[row1]
+	{NextPage}
+		type: 2
+		[options]
+			{Option1}
+				label: Test
+				embed: 1613185134032
+[[interface]]

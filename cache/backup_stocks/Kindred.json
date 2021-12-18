@@ -1,0 +1,19 @@
+{
+   "name": "Kindred",
+   "total_shares": 10000000,
+   "stock_price": 26,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.13,
+         "11.11": 50.45,
+         "11.12": 50.7,
+         "11.13": 50.9,
+         "11.14": 51.51
+      },
+      "last_patched": "11.9",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 5
+}

@@ -1,0 +1,13 @@
+name: quantify
+description: Calculates quantity of stock that can be purchased for the inputted number of charms
+[options]
+	{option1}
+		name: stock
+		description: Name of the stock ex: Ryze, Akali, ect
+		option_type: 3
+		required: True
+	{option2}
+		name: charms
+		description: Number of charms spent
+		option_type: 4
+		required: True

@@ -1,0 +1,36 @@
+[[init]]
+author=Most Played: {{player.most_played[1].name}} ({{player.most_played[1].games}} Games)
+title={{player.name}} ({{player.region_short}})
+description=<<player.ranked.tier>> **{{player.ranked.tier}} {{player.ranked.rank}} | Winrate: {{player.ranked.winrate}}%** ({{player.ranked.wins}}W / {{player.ranked.losses}}L)
+author_icon={{player.most_played.image_url}}
+color=0xfc8403
+thumbnail={{player.icon_url}}
+[[init]]
+
+[[field]]
+name=Recent Matches [1-5]
+line=<<partial_games[0].result.color_emoji>> **{{partial_games[0].result}}** ({{matches[0].time.digital_duration}}) <<partial_games[0].lane>> <<partial_games[0].champion>> **{{partial_games[0].kda_slashes}}** ({{partial_games[0].kda}} KDA) **{{prebuilt.dot}} {{matches[0].match_type.tiny}}** | {{matches[0].time.short_elapsed}} ago
+line=<<partial_games[1].result.color_emoji>> **{{partial_games[1].result}}** ({{matches[1].time.digital_duration}}) <<partial_games[1].lane>> <<partial_games[1].champion>> **{{partial_games[1].kda_slashes}}** ({{partial_games[1].kda}} KDA) **{{prebuilt.dot}} {{matches[1].match_type.tiny}}** | {{matches[1].time.short_elapsed}} ago
+line=<<partial_games[2].result.color_emoji>> **{{partial_games[2].result}}** ({{matches[2].time.digital_duration}}) <<partial_games[2].lane>> <<partial_games[2].champion>> **{{partial_games[2].kda_slashes}}** ({{partial_games[2].kda}} KDA) **{{prebuilt.dot}} {{matches[2].match_type.tiny}}** | {{matches[2].time.short_elapsed}} ago
+line=<<partial_games[3].result.color_emoji>> **{{partial_games[3].result}}** ({{matches[3].time.digital_duration}}) <<partial_games[3].lane>> <<partial_games[3].champion>> **{{partial_games[3].kda_slashes}}** ({{partial_games[3].kda}} KDA) **{{prebuilt.dot}} {{matches[3].match_type.tiny}}** | {{matches[3].time.short_elapsed}} ago
+line=<<partial_games[4].result.color_emoji>> **{{partial_games[4].result}}** ({{matches[4].time.digital_duration}}) <<partial_games[4].lane>> <<partial_games[4].champion>> **{{partial_games[4].kda_slashes}}** ({{partial_games[4].kda}} KDA) **{{prebuilt.dot}} {{matches[4].match_type.tiny}}** | {{matches[4].time.short_elapsed}} ago
+[[field]]
+
+[[field]]
+name=Recent Matches [6-10]
+line=**<<partial_games[5].result.color_emoji>>** {{partial_games[5].result}} ({{matches[5].time.digital_duration}}) <<partial_games[5].lane>> <<partial_games[5].champion>> **{{partial_games[5].kda_slashes}}** ({{partial_games[5].kda}} KDA) {{prebuilt.dot}} **{{matches[5].match_type.tiny}}** | {{matches[5].time.short_elapsed}} ago
+line=**<<partial_games[6].result.color_emoji>>** {{partial_games[6].result}} ({{matches[6].time.digital_duration}}) <<partial_games[6].lane>> <<partial_games[6].champion>> **{{partial_games[6].kda_slashes}}** ({{partial_games[6].kda}} KDA) {{prebuilt.dot}} **{{matches[6].match_type.tiny}}**| {{matches[6].time.short_elapsed}} ago
+line=**<<partial_games[7].result.color_emoji>>** {{partial_games[7].result}} ({{matches[7].time.digital_duration}}) <<partial_games[7].lane>> <<partial_games[7].champion>> **{{partial_games[7].kda_slashes}}** ({{partial_games[7].kda}} KDA) {{prebuilt.dot}} **{{matches[7].match_type.tiny}}** | {{matches[7].time.short_elapsed}} ago
+line=**<<partial_games[8].result.color_emoji>>** {{partial_games[8].result}} ({{matches[8].time.digital_duration}}) <<partial_games[8].lane>> <<partial_games[8].champion>> **{{partial_games[8].kda_slashes}}** ({{partial_games[8].kda}} KDA) {{prebuilt.dot}} **{{matches[8].match_type.tiny}}** | {{matches[8].time.short_elapsed}} ago
+line=**<<partial_games[9].result.color_emoji>>** {{partial_games[9].result}} ({{matches[9].time.digital_duration}}) <<partial_games[9].lane>> <<partial_games[9].champion>> **{{partial_games[9].kda_slashes}}** ({{partial_games[9].kda}} KDA) {{prebuilt.dot}} **{{matches[9].match_type.tiny}}** | {{matches[9].time.short_elapsed}} ago
+[[field]]
+[[interface]]
+[row1]
+	{Pages}
+		type: 2
+		placeholder: Showing: Match History
+		[options]
+			{GameList}
+				label: Player Summary
+				embed: 1459530512230
+[[interface]]

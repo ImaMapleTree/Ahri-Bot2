@@ -1,0 +1,19 @@
+{
+   "name": "Tristana",
+   "total_shares": 10000000,
+   "stock_price": 23,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.12,
+         "11.11": 49.9,
+         "11.12": 50.21,
+         "11.13": 49.87,
+         "11.14": 49.81
+      },
+      "last_patched": "11.7",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 7
+}

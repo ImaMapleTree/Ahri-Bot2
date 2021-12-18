@@ -1,0 +1,8 @@
+name: execute
+description: Another debug command!
+[options]
+	{hidden}
+		name: subcommand
+		description: subcommand
+		option_type: 3
+		required: false

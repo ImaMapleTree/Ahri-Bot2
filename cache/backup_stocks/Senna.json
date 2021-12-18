@@ -1,0 +1,19 @@
+{
+   "name": "Senna",
+   "total_shares": 10000000,
+   "stock_price": 35,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 52.89,
+         "11.11": 51.64,
+         "11.12": 52.52,
+         "11.13": 52.09,
+         "11.14": 51.85
+      },
+      "last_patched": "11.11",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 3
+}

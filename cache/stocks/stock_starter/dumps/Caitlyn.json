@@ -1,0 +1,18 @@
+{
+   "name": "Caitlyn",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.96,
+         "11.11": 49.4,
+         "11.12": 48.85,
+         "11.13": 49.61,
+         "11.14": 48.98
+      },
+      "last_patched": "11.8"
+   },
+   "patches_since_patched": 6
+}

@@ -1,0 +1,19 @@
+{
+   "name": "Seraphine",
+   "total_shares": 10000000,
+   "stock_price": 1,
+   "stock_demand": 7,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 47.79,
+         "11.11": 48.3,
+         "11.12": 49.03,
+         "11.13": 49.04,
+         "11.14": 48.61
+      },
+      "last_patched": "11.14",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 0
+}

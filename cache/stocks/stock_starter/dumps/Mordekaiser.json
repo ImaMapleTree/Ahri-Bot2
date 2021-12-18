@@ -1,0 +1,18 @@
+{
+   "name": "Mordekaiser",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.47,
+         "11.11": 48.1,
+         "11.12": 48.32,
+         "11.13": 47.72,
+         "11.14": 47.57
+      },
+      "last_patched": "11.10"
+   },
+   "patches_since_patched": 4
+}

@@ -1,0 +1,18 @@
+{
+   "name": "Katarina",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.24,
+         "11.11": 51.69,
+         "11.12": 52.1,
+         "11.13": 51.32,
+         "11.14": 51.31
+      },
+      "last_patched": "11.10"
+   },
+   "patches_since_patched": 4
+}

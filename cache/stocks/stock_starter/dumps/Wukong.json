@@ -1,0 +1,18 @@
+{
+   "name": "Wukong",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.38,
+         "11.11": 52.47,
+         "11.12": 51.66,
+         "11.13": 51.85,
+         "11.14": 52.35
+      },
+      "last_patched": "11.12"
+   },
+   "patches_since_patched": 2
+}

@@ -1,0 +1,18 @@
+{
+   "name": "Elise",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 52.65,
+         "11.11": 51.69,
+         "11.12": 50.59,
+         "11.13": 50.09,
+         "11.14": 50.83
+      },
+      "last_patched": "11.11"
+   },
+   "patches_since_patched": 3
+}

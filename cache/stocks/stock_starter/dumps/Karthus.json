@@ -1,0 +1,18 @@
+{
+   "name": "Karthus",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 52.25,
+         "11.11": 52.55,
+         "11.12": 52.56,
+         "11.13": 52.93,
+         "11.14": 52.45
+      },
+      "last_patched": "11.6"
+   },
+   "patches_since_patched": 8
+}

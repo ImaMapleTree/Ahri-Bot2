@@ -1,0 +1,13 @@
+name: test
+description: Tests embed
+[options]
+	{messages}
+		name: messages
+		description: Amount of messages that make-up your embed. Ex: 2 (last 2 messages)
+		option_type: 4
+		required: True
+	{hidden}
+		name: hidden
+		description: if the response should be hidden
+		option_type: 5
+		required: false

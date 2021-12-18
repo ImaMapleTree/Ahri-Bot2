@@ -1,0 +1,19 @@
+{
+   "name": "Yasuo",
+   "total_shares": 10000000,
+   "stock_price": 30,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 49.53,
+         "11.11": 49.51,
+         "11.12": 49.84,
+         "11.13": 49.04,
+         "11.14": 50.07
+      },
+      "last_patched": "11.14",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 0
+}

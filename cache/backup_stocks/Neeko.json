@@ -1,0 +1,19 @@
+{
+   "name": "Neeko",
+   "total_shares": 10000000,
+   "stock_price": 16,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 52.9,
+         "11.11": 50.55,
+         "11.12": 51.38,
+         "11.13": 52.74,
+         "11.14": 49.28
+      },
+      "last_patched": "11.13",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 1
+}

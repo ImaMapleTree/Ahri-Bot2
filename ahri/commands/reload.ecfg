@@ -1,0 +1,8 @@
+name: reload
+description: Reloads a module
+[options]
+	{module}
+		name: module
+		description: Name of the module to reload
+		option_type: 3
+		required: True

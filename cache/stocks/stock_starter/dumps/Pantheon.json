@@ -1,0 +1,18 @@
+{
+   "name": "Pantheon",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 51.36,
+         "11.11": 51.83,
+         "11.12": 52.28,
+         "11.13": 51.29,
+         "11.14": 51.64
+      },
+      "last_patched": "11.3"
+   },
+   "patches_since_patched": 11
+}

@@ -1,0 +1,57 @@
+[[variables]]
+mastery0=player.mastery[0]
+mastery1=player.mastery[1]
+mastery2=player.mastery[2]
+[[variables]]
+
+[[init]]
+author=Most Played: {{player.most_played.name}} ({{player.most_played.games}} Games)
+title={{player.name}} ({{player.region_short}})
+description=<<player.ranked.tier>> **{{player.ranked.tier}} {{player.ranked.rank}} | Winrate: {{player.ranked.winrate}}%** ({{player.ranked.wins}}W / {{player.ranked.losses}}L)
+author_icon={{player.most_played.image_url}}
+color=0xfc8403
+thumbnail={{player.icon_url}}
+[[init]]
+[[inline-field]]
+name=Highest Mastery
+line=<<mastery0.champion.name>> **[{{mastery0.level}}]** 1. {{mastery0.champion.name}}: {{mastery0.pretty_points}}
+line=<<mastery1.champion.name>> **[{{mastery1.level}}]** 2. {{mastery1.champion.name}}: {{mastery1.pretty_points}}
+line=<<mastery2.champion.name>> **[{{mastery2.level}}]** 3. {{mastery2.champion.name}}: {{mastery2.pretty_points}}
+[[inline-field]]
+
+[[inline-field]]
+name=Recently Played With
+line=**{{player.friends[0].name}}** ({{player.friends[0].games}} Games)
+line=**{{player.friends[1].name}}** ({{player.friends[1].games}} Games)
+line=**{{player.friends[2].name}}** ({{player.friends[2].games}} Games)
+[[inline-field]]
+
+[[field]]
+name=Recent Stats
+line=Winrate: **{{player.winrate}}**% ({{player.wins}}W / {{player.losses}}L) | **Average KDA: {{player.total_kda}}**
+conditional_line[player.win_streak>=3]=:fire: **{{player.name}}** is on a **{{player.win_streak}}** game win streak.
+conditional_line[player.loss_streak>=3]=:snowflake: **{{player.name}}** is on a **{{player.loss_streak}}** game loss streak.
+[[field]]
+
+[[field]]
+name=Last Game
+line=<<player.last_result>><<player.lane>> **{{player.last_result}}** as **<<player.champion.name>> {{player.champion.name}} | {{player.stats_string}}** with **{{player.cs}} CS | {{player.time.elapsed_time}}**
+[[field]]
+
+[[field]]
+name=Most Played
+line=**1)** <<player.most_played[0]>> **{{player.most_played[0]}}**<<player.most_played[0].kda_emoji>>**{{player.most_played[0].kda}}** KDA<<player.most_played[0].kda_emoji>>({{player.most_played[0].wins}}W / {{player.most_played[0].losses}}L)
+line=**2)** <<player.most_played[1]>> **{{player.most_played[1]}}**<<player.most_played[1].kda_emoji>>**{{player.most_played[1].kda}}** KDA<<player.most_played[1].kda_emoji>>({{player.most_played[1].wins}}W / {{player.most_played[1].losses}}L)
+line=**3)** <<player.most_played[2]>> **{{player.most_played[2]}}**<<player.most_played[2].kda_emoji>>**{{player.most_played[2].kda}}** KDA<<player.most_played[2].kda_emoji>>({{player.most_played[2].wins}}W / {{player.most_played[2].losses}}L)
+[[field]]
+
+[[interface]]
+[row1]
+	{Pages}
+		type: 2
+		placeholder: Player Summary
+		[options]
+			{GameList}
+				label: Match History
+				embed: 1451806791398
+[[interface]]

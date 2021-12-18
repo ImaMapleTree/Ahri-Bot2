@@ -1,0 +1,19 @@
+{
+   "name": "Blitzcrank",
+   "total_shares": 10000000,
+   "stock_price": 34,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.45,
+         "11.11": 50.15,
+         "11.12": 50.83,
+         "11.13": 49.46,
+         "11.14": 50.11
+      },
+      "last_patched": "11.1",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 13
+}

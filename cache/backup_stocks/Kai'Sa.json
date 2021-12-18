@@ -1,0 +1,19 @@
+{
+   "name": "Kai'Sa",
+   "total_shares": 10000000,
+   "stock_price": 12,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.19,
+         "11.11": 48.86,
+         "11.12": 47.88,
+         "11.13": 48.31,
+         "11.14": 48.5
+      },
+      "last_patched": "11.12",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 2
+}

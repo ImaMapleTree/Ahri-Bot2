@@ -1,0 +1,19 @@
+{
+   "name": "Twitch",
+   "total_shares": 10000000,
+   "stock_price": 14,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 50.68,
+         "11.11": 51.01,
+         "11.12": 50.14,
+         "11.13": 51.56,
+         "11.14": 49.31
+      },
+      "last_patched": "11.5",
+      "daily_timeline": []
+   },
+   "patches_since_patched": 9
+}

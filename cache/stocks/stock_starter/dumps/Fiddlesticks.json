@@ -1,0 +1,18 @@
+{
+   "name": "Fiddlesticks",
+   "ahri_charm_amount": 10000000,
+   "stock_price": 1,
+   "stock_demand": 1,
+   "history": {
+      "price_timeline": [],
+      "patch_winrate": {
+         "11.10": 53.08,
+         "11.11": 53.01,
+         "11.12": 53.02,
+         "11.13": 52.02,
+         "11.14": 52.01
+      },
+      "last_patched": "11.10"
+   },
+   "patches_since_patched": 4
+}
