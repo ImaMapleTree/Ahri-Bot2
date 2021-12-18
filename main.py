@@ -37,4 +37,4 @@ async def on_ready():
 	print(len(guild_ids))
 
 builtins.CLIENT_LOADED = True
-client.run('NjU5OTg3MTMyOTg2ODE4NTYw.XmgipA.thhPhuhmZ0WQzIBYAVSGlVwdAr0')
+client.run(utils.CONFIG["ahri_key"])
